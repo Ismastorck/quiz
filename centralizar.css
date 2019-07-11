@@ -1,0 +1,28 @@
+@charset "utf-8";
+.centralizar {
+	margin: 0px;
+	clear: both;
+	float: right;
+	width: auto;
+	position: relative;
+	visibility: hidden;
+	height: auto;
+}
+.centralizar {
+	clear: none;
+	float: none;
+	position: absolute;
+	visibility: visible;
+	height: auto;
+	width: auto;
+	text-align: center;
+	left: 36px;
+	top: 83px;
+}
+.centralizar {
+	float: right;
+}
+.centralizar {
+	text-align: center;
+	margin: auto;
+}

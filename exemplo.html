@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+</head>
+<HTML><HEAD>
+<META http-equiv=Content-Type content="text/html; charset=windows-1252">
+<script language=JavaScript>
+<!--
+function Login(){
+var done=0;
+var password=document.login.password.value;
+password=password.toLowerCase();
+
+if (password=="assimetria") { window.location="calculos.htm"; done=1; }
+if (done==0) { alert("Resposta errada!"); }
+
+}
+//-->
+</SCRIPT>
+<BODY>
+<CENTER>
+<FORM name=login>
+<TABLE cellPadding=3 border=0>
+  <TBODY>
+  <TR>
+    <TD colSpan=2>
+      <CENTER>
+        <FONT face=verdana color=#696969 size=10><strong>Quiz</strong></FONT>
+      </CENTER></TD></TR>
+  <TR>
+    <TD height="25" colspan="2" align="center" valign="middle"><h2>Quadrada</h2></TD>
+  </TR>
+  <TR>
+    <TD height="349" colspan="2" align="center"><img name="" src="img/exemplo.jpg" width="348" height="263" alt="" /></TD>
+    </TR>
+  <TR>
+    <TD width="124"><FONT face=verdana color=#696969 size=1>Resposta</FONT></TD>
+    <TD width="219"><INPUT type=text name=password>
+      <input onclick=Login() type=button value=Enter /></TD></TR>
+</TBODY></TABLE></FORM></CENTER>
+<p align="center">
+</BODY></HTML>
+<body>
+</body>
+</html>
